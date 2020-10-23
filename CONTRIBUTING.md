@@ -11,5 +11,14 @@ The easiest way is to go to https://github.com/rust-unofficial/awesome-rust/blob
 If you want to add an entry to the `README.md` please consider this:
 
 - is the entry valuable to people trying to get things done in Rust?
-- if you want to add something, please use the template `[YYY](https://crates.io/crates/YYY) — DESCRIPTION [<img src="https://api.travis-ci.org/XXX/YYY.svg?branch=master">](https://travis-ci.org/XXX/YYY)`
+- if you want to add something, please use the template `[ACCOUNT/REPO](https://github.com/ACCOUNT/REPO) [[CRATE](https://crates.io/crates/CRATE)] — DESCRIPTION`
+    * if you've not published your crate to `crates.io` remove the `[[CRATE](...)]` part.
+    * if you have a CI build, please add the build badge. Put the image after the description, separated by a space. Please make sure to add the branch information to the image:
+       * example for Travis: ` [<img src="https://api.travis-ci.org/XXX/CRATE.svg?branch=master">](https://travis-ci.org/XXX/CRATE)`
+       * for Github actions please see https://docs.github.com/en/free-pro-team@latest/actions/managing-workflow-runs/adding-a-workflow-status-badge#using-the-branch-parameter
 - please pay attention to the alphabetical ordering.
+
+
+## Removing projects
+
+We don't remove projects unless they are outright broken or pronounced deprecated by another project or by its author.
